@@ -10,6 +10,12 @@ export class Item {
   }
 }
 
+export enum ExceptionName {
+  AGE_BRIE = 'Aged Brie',
+  BACKSTAGE_PASSES = 'Backstage passes to a TAFKAL80ETC concert',
+  SULFURA = 'Sulfuras, Hand of Ragnaros'
+}
+
 export class GildedRose {
   items: Array<Item>;
 
